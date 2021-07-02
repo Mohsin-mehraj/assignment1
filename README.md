@@ -1,2 +1,2 @@
 # assignment1
-assignment 
+used css media queries to make it responsive and used javascript to add functionality to tabs
