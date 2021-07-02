@@ -1,0 +1,292 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main-part{
+  position: relative;
+}
+#fb-backg{
+  width: 80%;
+  height: 89vh;
+  background-repeat: no-repeat;
+
+}
+
+#fb-log-main{
+position: absolute;
+width: 8%;
+top: 1%;
+left: 35%;
+}
+
+#insta-log-main{
+  position: absolute;
+  width: 6%;
+  top: 1%;
+  left: 36.5%;
+  }
+
+  #yt-log-main{
+    position: absolute;
+    width: 25%;
+    top:-15%;
+    left: 25%;
+    }
+  
+
+#fb-paraone{
+  margin-top: 50px;
+  color: gray !important;
+  font-size: 28px !important;
+}
+.fb-para-1{
+  font-size: 50px;
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  left: 18%;
+  color: white;
+}
+
+#fb-qrcode{
+  position: absolute;
+  width: 10%;
+  top: 40%;
+  left: 35%;
+}
+
+#fb-parathree{
+  font-size: 40px;
+  position: absolute;
+  top: 80%;
+  left: 6%;
+  color: white;
+}
+body{
+  position: relative;
+}
+#small-tab-fb{
+  width: 50px;
+}
+#fb-tab{
+  position: absolute;
+  right: 10px;
+  top: 1px;
+  color:blue;
+  background-color:cornsilk;
+  padding-left: 50px;
+  padding-right: 125px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+
+#fb-hr{
+  position: absolute;
+  width: 300px;
+  top: 150px;
+  right: 1px;
+ 
+}
+
+
+
+#small-tab-twitter{
+  width: 50px;
+}
+#twitter-tab{
+  position: absolute;
+  right: 10px;
+  top: 151px;
+  color:blue;
+  background-color:cornsilk;
+  padding-left: 50px;
+  padding-right: 137px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#tw-hr{
+  position: absolute;
+  width: 304px;
+  top: 322px;
+  right: 1px;
+}
+
+
+#small-tab-yt{
+  width: 50px;
+}
+#youtube-tab{
+  position: absolute;
+  right: 10px;
+  top: 324px;
+  color:blue;
+  background-color:cornsilk;
+  padding-left: 50px;
+  padding-right: 125px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#yt-hr{
+  position: absolute;
+  width: 304px;
+  top: 485px;
+  right: 1px;
+}
+
+
+
+
+#small-tab-insta{
+  width: 50px;
+}
+#instagram-tab{
+  position: absolute;
+  right: 10px;
+  top: 487px;
+  color:blue;
+  background-color:cornsilk;
+  padding-left: 55px;
+  padding-right: 133px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+
+@media (max-width: 550px) {
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #fb-log-main{
+    position: absolute;
+    width: 20%;
+    top: 13%;
+    left: 39%;
+    }
+  #fb-backg{
+    width: 100%;
+    height: 95vh;
+  
+  }
+  #fb-paraone{
+    margin-top: 100px;
+    color: gray !important;
+    font-size: 28px !important;
+  }
+  .fb-para-1{
+    font-size: 28px;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    left: 13%;
+    color: white;
+  }
+  
+  
+  #fb-qrcode{
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 35%;
+  }
+
+  #fb-parathree{
+    font-size: 15px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    color: white;
+  }
+
+  body{
+    position: relative;
+  }
+
+  #small-tab-fb{
+    width: 55px;
+  }
+  #fb-tab-para{
+    display: none;
+  }
+  #fb-tab{
+    position: absolute;
+    left: 10px;
+    top: 700px;
+    padding:0px ;
+    background: 0px;
+    
+  }
+  
+  
+  hr{
+  display: none;
+   
+   
+  }
+
+  #small-tab-twitter{
+    width: 48px;
+    
+  }
+  #twitter-tab-para{
+    display: none;
+  }
+  #twitter-tab{
+    position: absolute;
+    left: 150px;
+    top: 693px;
+    padding:0px ;
+    background: 0px;
+    
+  }
+  
+
+  
+  #small-tab-yt{
+    width: 120px; 
+   
+  }
+  #yt-tab-para{
+    display: none;
+  }
+
+  #youtube-tab{
+    position: absolute;
+    left: 255px;
+    top: 670px;
+    padding:0px ;
+    background: 0px;
+    
+  }
+
+  
+  
+  #small-tab-insta{
+    width: 45px; 
+  }
+  #insta-tab-para{
+    display: none;
+  }
+
+  #instagram-tab{
+    position: absolute;
+    left: 445px;
+    top: 695px;
+    padding:0px ;
+    background: 0px;
+    
+  }
+
+
+
+
+}
